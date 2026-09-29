@@ -9,7 +9,7 @@ Node *front = NULL;
 Node *rear = NULL;
  
 bool isEmpty(){
-    if (front==NULL){
+    if (front == NULL){
         return true;
     } else{
         return false;
