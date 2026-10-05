@@ -34,7 +34,7 @@ void enqueue(int value){
     if (front == NULL && rear == NULL){
         front = rear = newNode;
     }
-				else {
+	else {
         rear -> next = newNode;
         rear = newNode;
     }
