@@ -60,7 +60,7 @@ void next(){
     else {
         Node *current = front;
         cout << "Queue: ";
-            cout << current->data << " ";
+            cout << current -> data << " ";
     }
 }
  
@@ -72,8 +72,8 @@ void display(){
         Node *current = front;
         cout << "Queue: ";
         while (current != NULL){
-            cout << current->data << " ";
-            current = current->next;
+            cout << current -> data << " ";
+            current = current -> next;
         }
         cout << "\n";
     }
