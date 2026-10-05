@@ -61,7 +61,7 @@ void next(){
     else {
         Node *current = front;
         cout << "Queue: ";
-            cout << current -> data << " ";
+        cout << current -> data << " ";
     }
 }
  
