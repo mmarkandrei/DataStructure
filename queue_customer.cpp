@@ -21,7 +21,8 @@ Node *rear = NULL;
 bool isEmpty(){
     if (front == NULL){
         return true;
-    } else{
+    } 
+				else {
         return false;
     }
 }
@@ -32,7 +33,8 @@ void enqueue(int value){
  
     if (front == NULL && rear == NULL){
         front = rear = newNode;
-    }else{
+    }
+				else {
         rear -> next = newNode;
         rear = newNode;
     }
