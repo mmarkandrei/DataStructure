@@ -21,8 +21,7 @@ Node *rear = NULL;
 bool isEmpty(){
     if (front == NULL){
         return true;
-    } 
-				else {
+    } else {
         return false;
     }
 }
