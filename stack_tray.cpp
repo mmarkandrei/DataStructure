@@ -52,7 +52,7 @@ void display (){
         cout << "Tray available: ";
         Node *current = top;
         while (current != NULL){
-            cout << "["<< current -> data << "]";
+            cout << "[" << current -> data << "]";
             current = current -> next;
         }
     }
